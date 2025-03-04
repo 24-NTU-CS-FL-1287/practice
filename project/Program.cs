@@ -59,6 +59,9 @@ namespace Lab__3_
             }
 
         }
+        static void forGIthub(){
+            Console.WriteLine("Comment form GIt HUb");
+        }
         static void FindMaxElement(int[,] matrix)
         {
             int max = int.MinValue; for (int i = 0; i < matrix.GetLength(0); i++)
