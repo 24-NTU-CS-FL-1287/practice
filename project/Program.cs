@@ -11,7 +11,7 @@ namespace Lab__3_
         static int[,] inputmatrix(int n, int m)
         {
             int[,] matrix = new int[n, m];
-            Console.WriteLine("Enter the value of matrix row vise");
+            Console.WriteLine("Enter the value of matrix");
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
