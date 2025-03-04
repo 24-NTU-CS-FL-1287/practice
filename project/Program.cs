@@ -11,7 +11,7 @@ namespace Lab__3_
         static int[,] inputmatrix(int n, int m)
         {
             int[,] matrix = new int[n, m];
-            Console.WriteLine("Enter the value of matrix");
+            Console.WriteLine("Enter the value of matrix row vise");
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
@@ -58,9 +58,6 @@ namespace Lab__3_
 
             }
 
-        }
-        static void forGIthub(){
-            Console.WriteLine("Comment form GIt HUb");
         }
         static void FindMaxElement(int[,] matrix)
         {
